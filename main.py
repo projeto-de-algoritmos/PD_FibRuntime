@@ -42,8 +42,8 @@ def fib_bottom_up(n):
 
 size_1 = 5
 size_2 = 10
-size_3 = 20
-size_4 = 40
+size_3 = 25
+size_4 = 30
 
 sizes = [ size_1, size_2, size_3, size_4 ]
 
@@ -74,7 +74,19 @@ print(dataset_fib_memo)
 print(dataset_fib_bottom_up)
 
 
-
 plt.plot(dataset_fib.values(), sizes, color='red')
 plt.plot(dataset_fib_memo.values(), sizes, color='blue')
 plt.plot(dataset_fib_bottom_up.values(), sizes, color='green')
+
+
+plt.title("Comparação Fib vs MemoFib vs BottomUp")
+red_patch = mpatches.Patch(color='red', label='Fib')
+blue_patch = mpatches.Patch(color='blue', label='MemoFib')
+green_patch = mpatches.Patch(color='green', label='BottomUp')
+
+plt.legend(handles=[red_patch, blue_patch, green_patch])
+plt.xlabel('Tempo(s)')
+plt.ylabel('Tamanho do vetor')
+plt.grid(color='r', linestyle='-', linewidth=0.2)
+
+plt.show()
