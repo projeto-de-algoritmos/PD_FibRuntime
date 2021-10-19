@@ -18,20 +18,20 @@ Temas:
 
 ## Sobre ℹ️
 
-Para visualizar melhor o tempo de execução do algoritmo de merge sort, plotamos um gráfico para visualizar o tempo que o algoritmo dedica para dividir e para conquistar a ordenação.
+Para visualizar melhor o tempo de execução dos algoritimos implementados usando programação dinamica como o memoized e abordagem bottom up, plotamos um gráfico para visualizar o tempo que o algoritmo dedica para retornar o valor fibonacci de n.
 
 ## Video
-[Link para o video explicativo](https://drive.google.com/file/d/1RocYFTjRwHFIubTupZaF5CJGKhontJcT/view?usp=sharing)
+[Link para o video explicativo]()
 
 ## 📷 Screenshots
 
-Retorno da execução do projeto. Gráfico que representa o tempo em que o algoritmo passa dividindo e conquistando.
+Retorno da execução do projeto. Gráfico que representa o tempo em que o algoritmo leva para executar a função fib(n) utilizando a abordagem recursiva, memoized e bottom up.
 
-![runtime](img/runtime.jpg)
+![runtime](img/)
 
-Print do terminal sendo o primeiro item de cada linha o tamanho do array, o segundo é o tempo de execução para a etapa de dividir, o terceiro o tempo da etapa de conquistar e o quarto e último é a razão entre o dividir e conquistar.
+Print do terminal sendo cada objeto o resultado da execução de cada função fib e as diferentes abordagens. Sendo a chave do objeto o valor de n a ser encontrado na chamada da função e o valor é o tempo gasto na execução de cada uma.
 
-![time](img/times.jpg)
+![time](img/)
 
 ## ⚙️ Instalação
 
@@ -42,13 +42,13 @@ Print do terminal sendo o primeiro item de cada linha o tamanho do array, o segu
 1. [Clone](https://help.github.com/en/articles/cloning-a-repository) o repositório do projeto. Para clonar vá ao terminal e digite:
 
 ```
-$ git clone https://github.com/projeto-de-algoritmos/DC_MergeRuntime.git
+$ git clone https://github.com/projeto-de-algoritmos/PD_FibRuntime.git
 ```
 
 2. Entre na pasta do projeto:
 
 ```
-$ cd DC_MergeRuntime
+$ cd PD_FibRuntime
 ```
 
 3. Antes de compilar o projeto, instale as dependências:
