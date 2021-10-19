@@ -27,17 +27,19 @@ Para visualizar melhor o tempo de execução dos algoritimos implementados usand
 
 Retorno da execução do projeto. Gráfico que representa o tempo em que o algoritmo leva para executar a função fib(n) utilizando a abordagem recursiva, memoized e bottom up.
 
-![runtime](img/)
+![runtime](https://user-images.githubusercontent.com/29442029/137834803-b2f2d97e-77ff-4e1b-9c24-4f0726d14593.png)
 
-Print do terminal sendo cada objeto o resultado da execução de cada função fib e as diferentes abordagens. Sendo a chave do objeto o valor de n a ser encontrado na chamada da função e o valor é o tempo gasto na execução de cada uma.
+Print do terminal sendo cada objeto o resultado da execução de cada função fib e as diferentes abordagens, sendo elas, na ordem, recursiva, memoization e bottom up. A chave do objeto é o valor de n a ser encontrado na chamada da função e o valor é o tempo gasto na execução de cada uma.
+![time](https://user-images.githubusercontent.com/29442029/137834824-37daeb8f-ffaf-4c75-a1db-52816a97cbb7.png)
 
-![time](img/)
 
 ## ⚙️ Instalação
 
 **Linguagem**: 🐍 Python<br>
 
 ### Para distribuição Linux 🐧 :
+
+
 
 1. [Clone](https://help.github.com/en/articles/cloning-a-repository) o repositório do projeto. Para clonar vá ao terminal e digite:
 
