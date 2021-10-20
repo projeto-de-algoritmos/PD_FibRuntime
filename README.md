@@ -21,7 +21,7 @@ Temas:
 Para visualizar melhor o tempo de execução dos algoritimos implementados usando programação dinamica como o memoized e abordagem bottom up, plotamos um gráfico para visualizar o tempo que o algoritmo dedica para retornar o valor fibonacci de n.
 
 ## Video
-[Link para o video explicativo]()
+[Link para o video explicativo](https://drive.google.com/file/d/1Abzbf2pIvCp5Wcqi7K6iM0FPJ_04c4pL/view)
 
 ## 📷 Screenshots
 
